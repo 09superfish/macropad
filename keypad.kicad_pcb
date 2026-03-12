@@ -10271,7 +10271,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "3248d301-e165-44e5-87ae-469c0b74f436")
-		(at 57 21.175 -90)
+		(at 54.9 21.1625 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -19872,7 +19872,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "e8246018-7ab9-4a2b-983c-8876cecc5268")
-		(at 57 18 -90)
+		(at 54.9 17.9875 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D26"
@@ -26871,8 +26871,8 @@
 		(uuid "c0dd84c2-b0e5-455a-a55e-9db26dd72ce2")
 	)
 	(segment
-		(start 57 18.7875)
-		(end 57 20.35)
+		(start 54.9 18.775)
+		(end 54.9 20.3375)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 70)
@@ -26911,7 +26911,7 @@
 		(uuid "b7f34dd0-b121-47aa-aebc-a0b97a288227")
 	)
 	(via
-		(at 57 23.1)
+		(at 54.9 23.0875)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26919,8 +26919,8 @@
 		(uuid "de4d0af5-91c5-4ca4-b7c9-2f41eeadea0e")
 	)
 	(segment
-		(start 57 22)
-		(end 57 23.1)
+		(start 54.9 21.9875)
+		(end 54.9 23.0875)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 73)

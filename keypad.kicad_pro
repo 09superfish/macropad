@@ -60,31 +60,51 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|154430000|30780000|d90b4d8f-a655-4b8a-80c1-4a7bb67ccb21|aa887277-a53d-4b3c-bfd5-452d7a9849d6",
+          "silk_edge_clearance|70048173|15200000|8706b793-6059-4559-94a8-e66ac0e0f05f|7b892e21-5181-4f3f-80b3-562f535514d5",
           ""
         ],
         [
-          "hole_clearance|154630000|30780000|9e5fb569-a607-47da-a9a1-9c864d365df4|aa887277-a53d-4b3c-bfd5-452d7a9849d6",
+          "silk_edge_clearance|78988173|15200000|8706b793-6059-4559-94a8-e66ac0e0f05f|315828d2-85dd-4267-a020-a903462b94d0",
           ""
         ],
         [
-          "hole_clearance|160030000|30780000|cb5e1efb-7b5b-41dd-a831-533307485561|7a58e1c6-fa3e-45b0-9111-274782aab5dc",
+          "silk_overlap|65065000|17945000|217c5050-84e9-4bab-919a-042086157137|c020c130-6f57-4252-999a-906af23c5580",
           ""
         ],
         [
-          "hole_clearance|160230000|30780000|a6a75629-6522-4a47-b81b-5c951703283a|7a58e1c6-fa3e-45b0-9111-274782aab5dc",
+          "silk_overlap|65065000|17955000|217c5050-84e9-4bab-919a-042086157137|d3b4ee37-61e9-4fcf-a488-97495204be39",
           ""
         ],
         [
-          "silk_edge_clearance|152860000|25250000|8706b793-6059-4559-94a8-e66ac0e0f05f|7b892e21-5181-4f3f-80b3-562f535514d5",
+          "silk_overlap|65065000|17955000|a7b9dd8b-cc6a-4a9d-adb3-9a1d38d83545|c020c130-6f57-4252-999a-906af23c5580",
           ""
         ],
         [
-          "silk_edge_clearance|161800000|25250000|8706b793-6059-4559-94a8-e66ac0e0f05f|315828d2-85dd-4267-a020-a903462b94d0",
+          "silk_overlap|65065000|17955000|a7b9dd8b-cc6a-4a9d-adb3-9a1d38d83545|d3b4ee37-61e9-4fcf-a488-97495204be39",
           ""
         ],
         [
-          "starved_thermal|157700000|38675000|28da4225-0d38-4a88-a921-9ba1a73cb124|6f5e74fb-4dde-44cf-af89-f74fa737bd97|B.Cu",
+          "starved_thermal|72118173|21280000|b1ae2948-b7e4-4d1d-99c7-2c9916650c7b|9e5fb569-a607-47da-a9a1-9c864d365df4|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|80238173|34975000|28da4225-0d38-4a88-a921-9ba1a73cb124|a0779cd9-bc74-410e-a82b-ab4ce9d77613|B.Cu",
+          ""
+        ],
+        [
+          "track_dangling|43582126|38492874|e7f9535c-14ed-46a5-b838-761d2e54affe|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|91675000|45230000|51f08c3a-bc3d-462b-9dc1-22d3c5865314|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|91765000|45230000|0729071f-2fa2-43e9-89e6-4a580ca64742|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|92600000|44331656|f7b5e9f4-823d-4d1d-af89-174144258043|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -108,7 +128,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",

@@ -1,4 +1,4 @@
-# 🎛️ Macropad
+# Macropad
 
 A custom 5×5 mechanical macropad built around the ATmega32U4-MU microcontroller. This is a two-person hobby project — one handles the PCB design, the other handles the firmware.
 
@@ -38,8 +38,6 @@ The 5×5 key matrix uses the following pin assignment:
 | Rows (output) | PB0, PB1, PB2, PB3, PB4 |
 | Columns (input, pull-up) | PF0, PF1, PF2, PF3, PB5 |
 
-> Note: PE6 is avoided (input-only). PD2/PD3 are reserved for USB. PF4–PF7 require JTAG to be disabled before use.
-
 ---
 
 ## Hardware
@@ -74,7 +72,7 @@ Firmware is written for the ATmega32U4 and maintained separately. The firmware h
 
 | Branch | Description |
 |--------|-------------|
-| `main` | Stable / released |
+| `main` | outdated design |
 | `routing-re-design` | Current PCB routing rework |
 
 ---
